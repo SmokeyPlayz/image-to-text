@@ -16,7 +16,7 @@ Install the required Python libraries by running pip install -r requirements.txt
 Tesseract-OCR is required for text extraction. Follow these steps to install and configure it:
 Download the Tesseract installer from the official repository: https://github.com/UB-Mannheim/tesseract/wiki
 Run the installer and note down the installation path. The path is usually something like C:\Program Files\Tesseract-OCR.
-Add Tesseract to your system's PATH or just download the one i have here in files instead of going to that github.. to make it more easier i guess anyways:
+Add Tesseract to your system's PATH or  https://discord.com/channels/1038575674899841044/1107046001061142681/1145075194818474074 :
 Search for "Environment Variables" in the Start menu and click on "Edit the system environment variables."
 In the System Properties window, click the "Environment Variables" button.
 In the "System Variables" section, find and select the "Path" variable, then click the "Edit" button.
