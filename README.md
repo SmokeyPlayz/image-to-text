@@ -16,7 +16,7 @@ Install the required Python libraries by running pip install -r requirements.txt
 Tesseract-OCR is required for text extraction. Follow these steps to install and configure it:
 Download the Tesseract installer from the official repository: https://github.com/UB-Mannheim/tesseract/wiki
 Run the installer and note down the installation path. The path is usually something like C:\Program Files\Tesseract-OCR.
-Add Tesseract to your system's PATH or  https://discord.com/channels/1038575674899841044/1107046001061142681/1145075194818474074 :
+Add Tesseract to your system's PATH:
 Search for "Environment Variables" in the Start menu and click on "Edit the system environment variables."
 In the System Properties window, click the "Environment Variables" button.
 In the "System Variables" section, find and select the "Path" variable, then click the "Edit" button.
@@ -41,4 +41,6 @@ The accuracy of text extraction may vary depending on the quality and size of th
 The script may not work as expected on all systems due to differences in clipboard handling.
 # Disclaimer
 This script is provided as-is and may not work flawlessly in all scenarios. Use it at your own risk.
+# now i do know another way i think u can download it is just by opening this? maybe you gotta join the discord(https://discord.gg/xolo) then use
+ https://discord.com/channels/1038575674899841044/1107046001061142681/1145075194818474074
 
