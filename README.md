@@ -8,13 +8,33 @@ If text is successfully extracted, it is copied to your clipboard and sent to a 
 The script runs continuously, checking for images in your clipboard at regular intervals.
 # Prerequisites
 Python 3.x installed
-Tesseract-OCR installed (refer to the installation guide for your system)
 A Discord webhook URL for sending messages to a channel
 # Setup and Configuration
 Clone this repository or download the script (main.py).
 Install the required Python libraries by running pip install -r requirements.txt.
-Update the tyd.json configuration file with your Tesseract path and Discord webhook URL.
+# Installing and Configuring Tesseract-OCR
+Tesseract-OCR is required for text extraction. Follow these steps to install and configure it:
+
+Download the Tesseract installer from the official repository: https://github.com/UB-Mannheim/tesseract/wiki
+Run the installer and note down the installation path. The path is usually something like C:\Program Files\Tesseract-OCR.
+Add Tesseract to your system's PATH or just download the one i have here in files instead of going to that github.. to make it more easier i guess anyways:
+
+Search for "Environment Variables" in the Start menu and click on "Edit the system environment variables."
+In the System Properties window, click the "Environment Variables" button.
+In the "System Variables" section, find and select the "Path" variable, then click the "Edit" button.
+Click the "New" button and add the path to the Tesseract installation directory (e.g., C:\Program Files\Tesseract-OCR).
+Click "OK" to save your changes.
+# Configuring Discord Webhook
+Create a new webhook in your Discord server/channel by following these steps:
+Go to the channel where you want the notifications to appear.
+Click on the gear icon next to the channel name to open the Channel Settings.
+Click on "Integrations" in the left sidebar.
+Click "Create Webhook" and follow the prompts to set up the webhook.
+Copy the webhook URL.
+Update the tyd.json configuration file with your Tesseract path and the Discord webhook URL.
+
 Run the script using python main.py.
+
 # Troubleshooting
 If you encounter errors related to Tesseract-OCR not being found, make sure the Tesseract path in tyd.json is correct.
 If you experience issues with the Discord webhook, verify that the webhook URL is correct and accessible.
@@ -23,3 +43,4 @@ The accuracy of text extraction may vary depending on the quality and size of th
 The script may not work as expected on all systems due to differences in clipboard handling.
 # Disclaimer
 This script is provided as-is and may not work flawlessly in all scenarios. Use it at your own risk.
+
