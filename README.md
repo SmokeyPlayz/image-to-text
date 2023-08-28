@@ -1,1 +1,1 @@
-# image-to-text
+Image to Text Converter
